@@ -8,7 +8,6 @@ CREATE TABLE `OUTILS_1_GRILLE` (
   `code` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
 INSERT INTO `OUTILS_1_GRILLE` (`Corps`, `Grade`, `echelon`, `indice_brut`, `indice_maj`, `duree`, `code`) VALUES
 ('Attaché d\'administration hospitalière (AAH)', 'Attaché (classe normale)', '1', 395, 444, '18', 'AAH_CN_1'),
 ('Attaché d\'administration hospitalière (AAH)', 'Attaché (classe normale)', '2', 415, 469, '24', 'AAH_CN_2'),
@@ -102,10 +101,28 @@ INSERT INTO `OUTILS_1_GRILLE` (`Corps`, `Grade`, `echelon`, `indice_brut`, `indi
 ('Directeur d\'hôpital (DH)', 'Classe normale', '7', 862, 710, '24', 'DH_CN_7'),
 ('Directeur d\'hôpital (DH)', 'Classe normale', '8', 912, 748, '24', 'DH_CN_8'),
 ('Directeur d\'hôpital (DH)', 'Classe normale', '9', 977, 797, '36', 'DH_CN_9'),
-('Directeur d\'hôpital (DH)', 'Classe normale', '10', 1015, 826, NULL, 'DH_CN_10');
+('Directeur d\'hôpital (DH)', 'Classe normale', '10', 1015, 826, NULL, 'DH_CN_10'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', '1', 797, 660, '24', 'AAH_HC_1'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', '2', 850, 700, '24', 'AAH_HC_2'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', '3', 896, 735, '24', 'AAH_HC_3'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', '4', 946, 773, '30', 'AAH_HC_4'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', '5', 995, 811, '36', 'AAH_HC_5'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', '6', 1027, 835, NULL, 'AAH_HC_6'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', 'HEA', NULL, 895, '12', 'AAH_HC_HEA'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', 'HEA2', NULL, 930, '12', 'AAH_HC_HEA2'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché hors-classe', 'HEA3', NULL, 977, NULL, 'AAH_HC_HEA3'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '1', 593, 505, '24', 'AAH_PR_1'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '2', 639, 540, '24', 'AAH_PR_2'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '3', 693, 580, '24', 'AAH_PR_3'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '4', 732, 610, '24', 'AAH_PR_4'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '5', 791, 655, '24', 'AAH_PR_5'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '6', 843, 695, '30', 'AAH_PR_6'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '7', 896, 735, '30', 'AAH_PR_7'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '8', 946, 773, '36', 'AAH_PR_8'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '9', 995, 811, '36', 'AAH_PR_9'),
+('Attaché d\'administration hospitalière (AAH)', 'Attaché principal', '10', 1015, 826, NULL, 'AAH_PR_10');
+
 
 ALTER TABLE `OUTILS_1_GRILLE`
   ADD UNIQUE KEY `idx_outils_1_grille_code` (`code`);
 COMMIT;
-
-
