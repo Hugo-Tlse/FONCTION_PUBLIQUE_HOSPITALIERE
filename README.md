@@ -70,12 +70,13 @@ mysql -u user -p ma_base < index_code.sql
 
 ## Corps déjà renseignés
 
-| Code corps | Corps                                              | Grades disponibles                                  |
-|------------|-----------------------------------------------------|------------------------------------------------------|
-| AAH        | Attaché d'administration hospitalière               | Classe normale                                        |
+| Code corps | Corps                                                | Grades disponibles                                    |
+|------------|------------------------------------------------------|-------------------------------------------------------|
+| AAH        | Attaché d'administration hospitalière                | Classe normale                                        |
 | ACH        | Adjoint des cadres hospitaliers                      | Classe normale, classe supérieure, classe exceptionnelle |
 | AMA        | Assistant médico-administratif                       | Classe normale, classe supérieure, classe exceptionnelle |
 | DH         | Directeur d'hôpital                                  | Classe normale                                         |
+| D3S        | DESSMS                                               | Classe normale                                         |
 
 ## Corps à compléter (contributions bienvenues)
 
