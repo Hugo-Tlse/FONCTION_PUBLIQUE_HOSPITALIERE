@@ -50,12 +50,10 @@ Pour un nouveau corps, choisissez un préfixe court et unique (2 à 4 lettres, c
 
 ## Fichiers du projet
 
-| Fichier                     | Rôle                                                                 |
+| Fichier                      | Rôle                                                                  |
 |------------------------------|-----------------------------------------------------------------------|
-| `create_table.sql`           | Création de la table `OUTILS_1_GRILLE`                               |
-| `insert_grilles_fph.sql`     | Insertion des données de grille (Corps, Grade, echelon, indices, durée) |
-| `ajout_colonne_code.sql`     | Ajout de la colonne `code` + mise à jour des lignes existantes        |
-| `index_code.sql`             | Création de l'index unique sur `code`                                 |
+| `grille.sql`                 | Grilles et création de la table `OUTILS_1_GRILLE`                     |
+
 
 > Si vous partez d'une base neuve, exécutez les scripts dans l'ordre ci-dessus.
 
