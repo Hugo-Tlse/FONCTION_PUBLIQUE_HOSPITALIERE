@@ -7,7 +7,9 @@ CREATE TABLE `OUTILS_1_GRILLE` (
   `indice_maj` int DEFAULT NULL,
   `duree` varchar(50) DEFAULT NULL,
   `code` varchar(30) DEFAULT NULL
+  PRIMARY KEY (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 
 INSERT INTO `OUTILS_1_GRILLE` (`Corps`, `Grade`, `Categorie`, `echelon`, `indice_brut`, `indice_maj`, `duree`, `code`) VALUES
 ('Attaché d\'administration hospitalière (AAH)', 'Attaché (classe normale)', 'A', '1', 395, 444, '18', 'AAH_CN_1'),
